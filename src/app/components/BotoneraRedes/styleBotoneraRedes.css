@@ -1,0 +1,150 @@
+.githubAnimado,
+.linkedinAnimado {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.githubAnimado #circuloWhite1 {
+  animation: moveCircle1 8s infinite both;
+}
+
+.githubAnimado #circuloPurple1 {
+  animation: moveCircle1 7s infinite both;
+}
+
+.githubAnimado #circuloYellow1 {
+  animation: moveCircle1 6s infinite both;
+}
+
+.githubAnimado #circuloWhite2 {
+  animation: moveCircle2 4s infinite both;
+}
+
+.githubAnimado #circuloPurple2 {
+  animation: moveCircle4 7s infinite both;
+}
+
+.githubAnimado #circuloYellow2 {
+  animation: moveCircle2 5s infinite both;
+}
+
+.githubAnimado #circuloYellow3 {
+  animation: moveCircle3 5s infinite both;
+}
+
+.githubAnimado #circuloYellow4 {
+  animation: moveCircle2 5s infinite both;
+}
+
+.linkedinAnimado #circulo1 {
+  animation: moveCircle3 7s infinite both;
+}
+
+.linkedinAnimado #circulo2 {
+  animation: moveCircle1 8s infinite both;
+}
+
+.linkedinAnimado #circulo3 {
+  animation: moveCircle2 9s infinite both;
+}
+
+.linkedinAnimado #circulo4 {
+  animation: moveCircle3 8s infinite both;
+}
+
+.linkedinAnimado #circulo5 {
+  animation: moveCircle3 10s infinite both;
+}
+
+.linkedinAnimado #circulo6 {
+  animation: moveCircl1 8s infinite both;
+}
+
+.linkedinAnimado #circulo7 {
+  animation: moveCircle2 5s infinite both;
+}
+
+.linkedinAnimado #circulo8 {
+  animation: moveCircle2 5s infinite both;
+}
+
+.linkedinAnimado #circulo9 {
+  animation: moveCircl2 5s infinite both;
+}
+
+.linkedinAnimado #circulo10 {
+  animation: moveCircle1 5s infinite both;
+}
+
+.linkedinAnimado #circulo2_2 {
+  animation: moveCircle2 5s infinite both;
+}
+
+.linkedinAnimado #circulo1_2 {
+  animation: moveCircle1 5s infinite both;
+}
+
+.linkedinAnimado #circulo1_3 {
+  animation: moveCircle2 5s infinite both;
+}
+
+.linkedinAnimado #circulo11 {
+  animation: moveCircle2 6s infinite both;
+}
+
+@keyframes moveCircle1 {
+  0% {
+    transform: translate(-20%, 0);
+  }
+
+  50% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(-20%, 0);
+  }
+}
+
+@keyframes moveCircle2 {
+  0% {
+    transform: translate(-10%, 10%);
+  }
+
+  50% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(-10%, 10%);
+  }
+}
+
+@keyframes moveCircle3 {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(30%, -10%);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes moveCircle4 {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(30%, -10%);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
